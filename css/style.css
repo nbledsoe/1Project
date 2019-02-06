@@ -98,12 +98,9 @@
   font-family: Arial;
 }
 .mission {
-  width: 80%;
+  width: 100%;
   padding: 5px 10px;
   padding-bottom: 10px;
-  position: fixed
-  left: 50%;
-  right: 50%;
   background: #F0F0F0;
   text-align: left;
 }
