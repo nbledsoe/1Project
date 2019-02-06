@@ -90,7 +90,7 @@
 .title {
   text-align: center;
   width: 80%;
-  padding: 10px 10px;
+  padding-top: 10px;
   background: #F0F0F0;
   margin-left: auto;
   margin-right: auto;
@@ -99,7 +99,7 @@
   font-family: Arial;
 }
 .mission {
-  width: 100%;
+  width: 80%;
   padding: 5px 10px;
   padding-bottom: 10px;
   background: #F0F0F0;
