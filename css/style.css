@@ -54,3 +54,26 @@
 .form-name {
   padding-bottom: 10px;
 }
+.navbar {
+    text-align: center;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.navbar li {
+    display: inline;
+}
+.navbar li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    font-family: 'Fugaz One', cursive;
+}
+.navbar li a:hover {
+    background-color: #255;
