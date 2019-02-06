@@ -73,13 +73,15 @@
     text-align: center;
     padding: 20px 25px;
     text-decoration: none;
-    font-family: 'Fugaz One', cursive;
+    font-family: "Fugaz One", cursive;
 }
 .footer li p:hover {
     background-color: #255;
 }
 .header {
    text-decoration: none;
-   font-family: 'Fugaz One', cursive;
+   font-family: "Fugaz One", cursive;
    color: #255;
+   background-color: "white";
+   font-size: "large";
 }
