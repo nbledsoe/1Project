@@ -79,13 +79,15 @@
     background-color: #255;
 }
 .header {
-   text-decoration: none;
-   font-family: "Fugaz One", cursive;
-   color: #255;
-   background-color: white;
-   width: 100%;
-   float: left;
-   padding: 25px 10px;
+  text-decoration: none;
+  font-family: "Fugaz One", cursive;
+  color: #255;
+  background-color: white;  
+  width: 100%;
+  float: left;
+  padding: 25px 0;
+  text-align: center;
+  margin: 0 0 20px 0;
 }
 .title {
   text-align: center;
