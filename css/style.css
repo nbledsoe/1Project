@@ -100,6 +100,7 @@
 .mission {
   width: 100%;
   padding: 0px 10px;
+  padding-bottom: 10px;
   float: center;
   background: #F0F0F0;
 }
