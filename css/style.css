@@ -90,7 +90,7 @@
 .title {
   text-align: center;
   width: 80%;
-  padding-top: 10px;
+  padding-top: 10px 0;
   background: #F0F0F0;
   margin-left: auto;
   margin-right: auto;
