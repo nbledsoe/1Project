@@ -92,6 +92,7 @@
   float: center;
   width: 100%;
   padding: 10px 10px;
+  background: #F0F0F0;
 }
 .body {
   font-family: Arial;
@@ -100,4 +101,5 @@
   width: 100%;
   padding: 0px 10px;
   float: center;
+  background: #F0F0F0;
 }
