@@ -101,7 +101,7 @@
   width: 80%;
   padding: 5px 10px;
   padding-bottom: 10px;
-  float: center;
+  float: none;
   background: #F0F0F0;
   text-align: center;
 }
