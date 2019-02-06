@@ -86,14 +86,12 @@
    width: 100%;
    float: left;
    padding: 25px 10px;
-   padding-bottom: 5px;
 }
 .title {
   text-align: center;
   float: center;
   width: 100%;
   padding: 10px 10px;
-  padding-top: 5px;
   background: #F0F0F0;
 }
 .body {
