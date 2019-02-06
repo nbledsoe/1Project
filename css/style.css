@@ -83,6 +83,7 @@
    font-family: "Fugaz One", cursive;
    color: #255;
    background-color: "white";
-   font-size: 35px;
-   padding: 20px 20px 20px 20px;
+   width: 100%;
+   float: "left";
+   padding: 25px 0;
 }
