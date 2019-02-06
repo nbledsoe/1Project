@@ -29,8 +29,10 @@
   <button class="open-button" onclick="openForm()">Interested in Adopting?</button>
     <div class="form-popup" id="myForm">
       <form action="/action_page.php" class="form-container">
-        <h1>Adoption Email List</h1>
-        <label for="email"><b>Email</b></label>
+        <div class="form-name">
+         <h1>Adoption Email List</h1>
+        </div>
+        <label for="email"><b>Signup for weekly list of adoptable animals!</b></label>
         <input type="text" placeholder="Enter Email" name="email" required>
         <button type="submit" class="btn">Submit</button>
         <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
