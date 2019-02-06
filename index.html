@@ -45,4 +45,20 @@
     <h3>Thank you for volunteering. People like you make it possible for us to operate.</h3>
    </div>
   </div>
+  <script>
+    var modal = document.getElementById('myModal');
+    var btn = document.getElementById("myBtn");
+    var span = document.getElementsByClassName("close")[0];
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    window.onclick = function(event) {
+      if (event.target == modal) {
+      modal.style.display = "none";
+      }
+    }
+  </script>
 </body>
