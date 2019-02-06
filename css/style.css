@@ -67,7 +67,7 @@
 .footer li {
     display: inline;
 }
-.footer li a {
+.footer li p {
     display: inline-block;
     color: white;
     text-align: center;
@@ -75,5 +75,5 @@
     text-decoration: none;
     font-family: 'Fugaz One', cursive;
 }
-.footer li a:hover {
+.footer li p:hover {
     background-color: #255;
