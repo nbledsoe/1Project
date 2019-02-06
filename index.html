@@ -26,8 +26,22 @@
   <div class="dog">
     <img src="images/mRqc5ns.jpg" alt="Rescue Dog">
   </div>
-  <div class="volunteer">
-    <p>Our animals are amazing, however, they do require a lot of care and work. That's where you come in. We are always looking for loving and caring volunteers to help us continue our mission of saving and rehabilitating animals. This is your chance to make a bunch of new furry friends while also doing good. Whether you want to help with the animals or the prep work there is something for everyone, so don't hesitate and sign up below! 
-    </p>
-  </div>
+  <button class="open-button" onclick="openForm()">Adopt!</button>
+    <div class="form-popup" id="myForm">
+      <form action="/action_page.php" class="form-container">
+        <h1>Email List</h1>
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+        <button type="submit" class="btn">Submit</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+      </form>
+    </div>
+  <script>
+  function openForm() {
+    document.getElementById("myForm").style.display = "block";
+  }
+  function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+  }
+  </script>
 </body>
