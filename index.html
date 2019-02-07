@@ -23,17 +23,17 @@
     <img src="images/61912416_500x324.jpg" alt="Rescue Cat">
   </figure>
   <button class="open-button" onclick="openForm()">Interested in Adopting?</button>
-    <div class="form-popup" id="myForm">
+    <figure class="form-popup" id="myForm">
       <form action="/action_page.php" class="form-container">
-        <div class="form-name">
+        <figure class="form-name">
          <h1>Adoption Email List</h1>
-        </div>
+        </figure>
         <label for="email"><b>Signup for a weekly list of adoptable animals!</b></label>
         <input type="text" placeholder="Enter Email" name="email" required>
         <button type="submit" class="btn">Submit</button>
         <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
       </form>
-    </div>
+    </figure>
     <script>
       function openForm() {
         document.getElementById("myForm").style.display = "block";
