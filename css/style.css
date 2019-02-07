@@ -24,7 +24,7 @@
   background-color: white;
 }
 .form-container input[type=text], .form-container input[type=password] {
-  width: 90%;
+  width: 93%;
   padding: .938em;
   margin: .313em 0 1.375em 0;
   border: none;
@@ -48,6 +48,7 @@
 }
 .form-name {
   padding-bottom: .625em;
+  text-align: center;
 }
 footer {
     text-align: center;
