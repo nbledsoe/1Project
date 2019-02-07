@@ -131,4 +131,6 @@
 .align {
   flex: 50%;
   padding: 5px;
+  margin-right: auto;
+  margin-left: auto;
 }
