@@ -126,5 +126,6 @@
 }
 .images {
   list-style-type: none;
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
