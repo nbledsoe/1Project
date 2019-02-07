@@ -30,10 +30,6 @@
   border: none;
   background: #f1f1f1;
 }
-.form-container input[type=text]:focus, .form-container input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
 .form-container .btn {
   background-color: #4CAF50;
   color: white;

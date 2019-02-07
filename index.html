@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Chicago Animal Rescue</title>
-  <link rel="javascript" href="java/script.js">
+  <title>Chicago Animal Rescue</title>.
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
@@ -22,7 +21,7 @@
     <img src="images/mRqc5ns.jpg" alt="Rescue Dog">
     <img src="images/61912416_500x324.jpg" alt="Rescue Cat">
   </figure>
-  <button class="open-button" onclick="openForm()">Interested in Adopting?</button>
+  <input type="button" class="open-button" onclick="openForm()" value="Interested in Adopting?"></input>
     <figure class="form-popup" id="myForm">
       <form action="/action_page.php" class="form-container">
         <figure class="form-name">
@@ -30,8 +29,8 @@
         </figure>
         <label for="email"><b>Signup for a weekly list of adoptable animals!</b></label>
         <input type="text" placeholder="Enter Email" name="email" required>
-        <button type="submit" class="btn">Submit</button>
-        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        <input type="submit" class="btn" value="Submit"></input>
+        <input type="button" class="btn cancel" onclick="closeForm()" value="Close"></input>
       </form>
     </figure>
     <script>
