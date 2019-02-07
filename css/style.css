@@ -124,13 +124,6 @@
   margin-left: auto;
   margin-right: auto;
 }
-.side {
-  float: left;
-  width: 50%;
-  padding: 5px;
-}
-.align {
-  content: "";
-  clear: both;
-  display: table;
+.images {
+  list-style-type: none;
 }
