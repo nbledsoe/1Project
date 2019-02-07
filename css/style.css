@@ -125,12 +125,12 @@
   margin-right: auto;
 }
 .side {
-  display: flex;
-}
-
-.align {
-  flex: 50%;
+  float: left;
+  width: 33.33%;
   padding: 5px;
-  margin-right: auto;
-  margin-left: auto;
+}
+.align::after {
+  content: "";
+  clear: both;
+  display: table;
 }
