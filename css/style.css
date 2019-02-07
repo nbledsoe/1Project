@@ -23,13 +23,6 @@
   padding: .625em;
   background-color: white;
 }
-.form-container input[type=text], .form-container input[type=password] {
-  width: 90%;
-  padding: .938em;
-  margin: .313em 0 1.375em 0;
-  border: none;
-  background: #f1f1f1;
-}
 .form-container .btn {
   background-color: #4CAF50;
   color: white;
