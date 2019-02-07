@@ -3,26 +3,25 @@
 <head>
   <meta charset="utf-8">
   <title>Chicago Animal Rescue</title>
+  <link rel="javascript" href="java/script.js">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
 </head>
 <body>
-  <div class="header">
+  <header>
     <h1>Chicago Animal Rescue</h1>
-  </div>
-  <div class="title">
+  </header>
+  <main>
     <h2>Our Mission</h2>
-  </div>
-  <div class="mission">
+  </main>
+  <section>
     <p>Chicago Animal Rescue is an organization that protects the lives and the welfare of animals. We believe every animal has the right to a well-balanced, socialized and fulfilled life. We take on the responsibility to save, rehabilitate and place abandoned, abused and stray animals. We provide medical, behavioral and physical support for animals despite their age, health and/or breed. Chicago Animal Rescue promotes sustainable living and care-giving within our communities by building awareness, appreciation and respect for all animals and the environment. </p>
-  </div>
-  <div class="images">
-    <ul>
-     <li><img src="images/61912416_500x324.jpg" alt="Rescue Cat"></li>
-     <li><img src="images/mRqc5ns.jpg" alt="Rescue Dog"></li>
-    </ul>
-  </div>
+  </section>
+  <figure class="image">
+    <img src="images/mRqc5ns.jpg" alt="Rescue Dog">
+    <img src="images/61912416_500x324.jpg" alt="Rescue Cat">
+  </figure>
   <button class="open-button" onclick="openForm()">Interested in Adopting?</button>
     <div class="form-popup" id="myForm">
       <form action="/action_page.php" class="form-container">
@@ -35,31 +34,28 @@
         <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
       </form>
     </div>
-  <script>
-  function openForm() {
-    document.getElementById("myForm").style.display = "block";
-  }
-  function closeForm() {
-    document.getElementById("myForm").style.display = "none";
-  }
-  </script>
-  <div class="adoption">
+    <script>
+      function openForm() {
+        document.getElementById("myForm").style.display = "block";
+      }
+      function closeForm() {
+        document.getElementById("myForm").style.display = "none";
+      }
+    </script>
+  <main>
     <h2>Why Adopt?</h2>
-  </div>
-  <div class="whyadopt">
+  </main>
+  <section>
     <p>Every year, six to eight million dogs wait to be adopted from animals shelters. Adopting a shelter animal gives your pet a second chance in a happy home. By taking home your new pet, you also make room at the shelter for another animal with nowhere else to go. Animals undergo full physicals when they are brought to the shelter. Our shelter staff makes sure animals are in top shape before they are ready to be adopted into a new home. Many pet stores and even some breeders do not offer animals the same health services prior to adoption. The financial cost of adopting a shelter animal is almost always less than purchasing an animal from a breeder. Our shelter spay and neuter animals before adoption, saving adopters hundreds of dollars. Rescue animals are also often microchipped and vaccinated, which can cost up to $60 and $150, respectively. Finally, our shelter provides a space for animals of all different breeds, ages, shapes, sizes and personalities. We house so many different pets that you are sure to find an animal that fits your lifestyle and will serve as your perfect companion. So, if you are ready to adopt please select the button on the lower right side of your screen and sign up for our weekly adoption email list!</p>
-  </div>
+  </section>
 </body>
-<footer>
-  <div class="footer">
-    <div class="footer"> 
-      <ul>
-        <li><p>53 S Madeup Ave</p></li>
-        <li><p>car@chicagorescue.com</p></li>
-        <li><p>Phone: (555) 555-5555</p></li>
-      </ul>
-    </div>
-    <div class="copyright">
-      <p>Copyright&copy;2019 NickBledsoe. All Rights Reserved.</p>
-  </div>
+<footer> 
+  <ul>
+    <li><p>53 S Madeup Ave</p></li>
+    <li><p>car@chicagorescue.com</p></li>
+    <li><p>Phone: (555) 555-5555</p></li>
+  </ul>
+  <mark>
+    <p>Copyright&copy; 2019 NickBledsoe. All Rights Reserved.</p>
+  </mark>
 </footer>
