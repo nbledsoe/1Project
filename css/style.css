@@ -124,13 +124,3 @@
   margin-left: auto;
   margin-right: auto;
 }
-.dog {
-  float: right;
-  width: 80;
-  height: 100%
-}
-.cat {
-  float: left;
-  width: 80%;
-  height: 100%;
-}
