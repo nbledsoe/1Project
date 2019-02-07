@@ -61,21 +61,21 @@ footer ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #58B9F7;
 }
 footer li {
     display: inline;
 }
 footer li p {
     display: inline-block;
-    color: white;
+    color: red;
     text-align: center;
     padding: 1.25em 1.563em;
     text-decoration: none;
     font-family: "Fugaz One", cursive;
 }
 footer li p:hover {
-    background-color: #255;
+    background-color: #58B9F7;
 }
 header {
   text-decoration: none;
