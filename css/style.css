@@ -29,7 +29,7 @@
   padding: .625em;
   background-color: white;
 }
-.form-container input[type=text], .form-container input[type=password] {
+.form-container input[type=text], .form-container input[type=email] {
   width: 93%;
   padding: .938em;
   margin: .313em 0 1.375em 0;
@@ -99,7 +99,7 @@ main {
 }
 body {
   font-family: Arial;
-  color: gray;
+  color: #555;
 }
 section {
   width: 80%;
