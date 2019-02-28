@@ -112,6 +112,6 @@ html {
   background-color: white;
 }
 figure li {
-  display: inline;
-  text-align: center;
+  display: block;
+  max-width: 100%;
 }
