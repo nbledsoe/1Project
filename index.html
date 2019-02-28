@@ -24,17 +24,17 @@
     </ul>
   </figure>
   <input type="button" class="open-button" onclick="openForm()" value="Interested in Adopting?"></input>
-    <figure class="form-popup" id="myForm">
+    <select class="form-popup" id="myForm">
       <form action="/action_page.php" class="form-container">
-        <figure class="form-name">
+        <select class="form-name">
          <h2>Adoption Email List</h2>
-        </figure>
+        </select>
         <label for="email"><strong>Signup for a weekly list of adoptable animals!</strong></label>
         <input type="text" placeholder="Enter Email" name="email" required></input>
         <input type="submit" class="btn" value="Submit"></input>
         <input type="button" class="btn cancel" onclick="closeForm()" value="Close"></input>
       </form>
-    </figure>
+    </select>
     <script>
       function openForm() {
         document.getElementById("myForm").style.display = "block";
