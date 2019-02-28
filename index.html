@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -24,17 +25,17 @@
     </ul>
   </figure>
   <input type="button" class="open-button" onclick="openForm()" value="Interested in Adopting?"></input>
-    <select class="form-popup" id="myForm">
+    <figure class="form-popup" id="myForm">
       <form action="/action_page.php" class="form-container">
-        <select class="form-name">
+        <figure class="form-name">
          <h2>Adoption Email List</h2>
-        </select>
+        </figure>
         <label for="email"><strong>Signup for a weekly list of adoptable animals!</strong></label>
         <input type="text" placeholder="Enter Email" name="email" required></input>
         <input type="submit" class="btn" value="Submit"></input>
         <input type="button" class="btn cancel" onclick="closeForm()" value="Close"></input>
       </form>
-    </select>
+    </figure>
     <script>
       function openForm() {
         document.getElementById("myForm").style.display = "block";

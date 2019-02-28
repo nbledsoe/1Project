@@ -82,11 +82,12 @@ footer li p:hover {
 }
 header {
   text-decoration: none;
-  font-family: "Fugaz One", cursive;
+  font-family: 'Bangers', cursive;
   color: red;
   background-color: #58B9F7;  
   width: 100%;
   padding: 1.563em .625em;
+  font-size: 1.500em
 }
 main {
   text-align: center;
@@ -114,4 +115,6 @@ html {
 figure li {
   display: block;
   max-width: 100%;
+  text-align: center;
+
 }
