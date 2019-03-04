@@ -2,10 +2,9 @@
     function openForm() {
       document.getElementById("myForm").style.display = "block";
     }
-    function closeForm() {
+      function closeForm() {
       document.getElementById("myForm").style.display = "none";
     }
-    document.addEventListener("click", openForm()){
-    }
+  document.getElementById("myForm").addEventListener("click" ());
 
 }());
